@@ -1,0 +1,166 @@
+{
+    "services": {
+        "title": "Meet your service experts. Regardless of the size of your home, \n forget about any worries that come with maintaining it.",
+        "clean-service": "Cleaning Services",
+        "roof-service": "Roof Services",
+        "bathroom-installation": "Bathroom Installation & Repair",
+        "computer-setup": "Computer Setup & Repair",
+        "restoration-services": "Restoration Services",
+        "electronic-service": "Electronic Installation & Repai",
+        "moreButton": "View More Services"
+    },
+    "howItWorks": {
+        "title": "How It Works"
+    },
+    "about": {
+        "title": "About Dein Hausman",
+        "text1": "Meet your service experts. Regardless of the size of your home,",
+        "text2": "forget about any worries that come with maintaining it.",
+        "button": "GET IN TOUCH"
+    },
+    "handyRegis": {
+        "title": "Become A Handyman",
+        "text": "Please fill out the details in this form and submit your profile. Once your profile is reviewed and approved you will be notified.",
+        "formTitle": "PERSONAL DETAILS",
+        "fName": "Full Name",
+        "cName": "Company Name (optional)",
+        "location": "Location",
+        "about": "About You/Company",
+        "cDetails": "CONTACT DETAILS",
+        "phone": "Phone Number",
+        "email": "E-Mail Address",
+        "dDetails": "UPLOAD DOCUMENTS",
+        "note": "Note",
+        "nText": "Dein Hausman keeps 10% of your earnings as commision",
+        "submitBtn": "Submit Profile For Review",
+        "SaveBtn": "Save Changes",
+        "bankName":"Bank Name",
+        "accountNumber":"Account Number of Holder",
+        "iFSCCode":"IFSC Code of Bank",
+        "saveChanges":"Save Bank Detail",
+        "bDetails":"BANK DETAILS"
+    },
+    "aboutUs": {
+        "title": "About Us",
+        "text1": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+        "text2": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+        "cTitle": "Let's Connect",
+        "cText": "We would love to help you start exceeding your CX",
+        "name": "Name",
+        "phone": "Phone",
+        "email": "Email",
+        "subject": "Subject",
+        "message": "Type Your Message Here",
+        "btn": "Send Us a Message"
+    },
+    "clientDash": {
+        "hello": "Hello",
+        "text": "Great to have you back. Let’s get you started for the day!",
+        "oTitle": "Place A New Order",
+        "oText": "Choose from 1000+ handymen in and around your locality!"
+    },
+    "clienttOrder": {
+        "title": "My Orders",
+        "sort": "Sort By",
+        "compelete": "Completed",
+        "cancelled": "Cancelled",
+        "inProgress": "In Progress",
+        "assigned": "Assigned Handyman",
+        "orderId": "Order ID",
+        "orderPlaced": "Order Placed",
+        "viewProject": "View Project"
+    },
+    "footer": {
+        "text": "For the best handymen service experiences in Deutschland.",
+        "services": "Services",
+        "cleaning": "Cleaning",
+        "electronic": "Electronic",
+        "restoration": "Restoration",
+        "computerSetup": "Computer Setup",
+        "otherServices": "Other Services",
+        "followUs": "Follow Us",
+        "facebook": "Facebook",
+        "twitter": "Twitter",
+        "instagram": "Instagram",
+        "linkedln": "Linkedln",
+        "contactUs": "Contact Us",
+        "copyRights": "Service with love © Dein Hausman 2021. All Rights Reserved",
+        "claim": "Claim",
+        "privacy": "Privacy",
+        "terms": "Terms"
+    },
+    "registrationComplete": {
+        "title": "Your profile is under review.",
+        "text": "We will email you within 24 hours to let you know if your profile was approved.",
+        "btn": "Return to Homepage"
+    },
+    "payment": {
+        "card": "Add Debit/Credit/ATM Card",
+        "netBanking": "Net Banking",
+        "chooseBank": "Choose your Bank",
+        "upi": "UPI",
+        "selectCard": "Select Your Card"
+    },
+    "pagination": {
+        "title": "Handymen found in your area",
+        "subTitle": "Handymen Near You",
+        "cancellation": "Cancellation",
+        "budget": "Budget",
+        "language": "Language",
+        "outServices": "Moving Out Services"
+    },
+    "inbox": {
+        "title": "Your Inbox",
+        "awaitingQuote": "Awaiting Quote",
+        "projectID": "Project ID",
+        "movingSerller": "Moving Out Serller",
+        "cancelled": "Cancelled",
+        "compelete": "Completed"
+    },
+    "paymentSuccess":{
+        "title": "Payment Sucessful",
+        "orderID": "ORDER ID",
+        "text": "Your order has been placed, you many now contact the handyman through the messages or the my bookings tab",
+        "viewBooking": "View Your Booking",
+        "downloadInvoice":"Download Your Invoice"
+    },
+    "profileGig": {
+        "title": "Report",
+        "contactMe": "Contact Me",
+        "from": "From",
+        "memberSince": "Member Since",
+        "text": "Marie Adolfo was our Handyman. She went above and beyond the assigned call of duty. All of her work was first class, very quick and extremely professional. She even worked on repairing a broken window in our lawn outside in a rain storm!"
+    },
+    "ProfileManagement": {
+        "linkedAccounts": "Linked Accounts",
+        "yourProfile": "YOUR PROFILE",
+        "info": "Some of this information may be visible to other people using our services.",
+        "findOutMore.": "Find out more.",
+        "fullName": "Full Name",
+        "phoneNumber": "Phone Number",
+        "aboutMe": "About Me",
+        "emailAddress": "Email Address",
+        "currentPassword": "Current Password",
+        "notification": "NOTIFICATIONS",
+        "notiText": "Control what you get notifications via your registered email for",
+        "activityUpdates": "Activity Updates",
+        "activityText": "New tasks assigned by you, delivery updates, and completion notifications for tasks you're assigned on",
+        "dailySummaries": "Daily Summaries",
+        "dailyText": "Task updates, approval requests for tasks assigned by you and their upcoming due dates",
+        "promotionalEmails": "Promotional Emails",
+        "promotionalText": "Discounts, Promotional offers, community updates with love from us for you.",
+        "paymentSetting": "PAYMENT SETTINGS",
+        "paymentText": "An overview of your current default payment methods and settings with Dein Hausman",
+        "yourLocation": "Your Location",
+        "change": "Change",
+        "addServiceInstructions": "Add Service Instructions",
+        "phone": "Phone",
+        "creditCardEnding": "Credit Card Ending",
+        "newPaymentMethod": "Add a new Payment Method",
+        "accSetting": "ACCOUNT SETTINGS",
+        "deleteAccount": "Delete My Account",
+        "deleteText": "Delete and remove all your data linked with Dein Hausman",
+        "DeactivateAccount": "Deactivate my Account",
+        "DeactivateText": "Temporarily deactivate your account"
+    }
+}

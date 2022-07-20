@@ -1,0 +1,29 @@
+.inbox-wide-page {
+  margin-top: 90px;
+  .chat-header > div {
+    justify-content: flex-start !important;
+  }
+  .line {
+    width: 100% !important;
+  }
+  .status-btn {
+    width: 192px;
+    height: 47px;
+    text-align: center;
+    color: $white-color;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.28px;
+    margin-left: 15px;
+  }
+  .status-green {
+    background: $green-color;
+  }
+  .status-red {
+    background: $red-color;
+  }
+  .status-orange {
+    background: $orange-color;
+  }
+}

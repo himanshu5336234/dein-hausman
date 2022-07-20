@@ -1,0 +1,79 @@
+.profile-gigs {
+  @media (max-width:767px) {
+    margin: 0;
+    padding: 0;
+  }
+  .row {
+    .profile-card {
+      border: 1px solid $light-grey;
+      height: 900px;
+      @media (max-width:768px) {
+        height: auto;
+      }
+      .report {
+        align-self: flex-end;
+
+        .title {
+          text-decoration: underline;
+          color: $primary-color;
+        }
+      }
+
+      .image-area {
+        width: 200px;
+        height: 200px;
+        border-radius: 20px;
+      }
+
+      .rating-star {
+        p {
+          font-weight: 500;
+
+          span {
+            color: $grey-color;
+            font-weight: 300;
+          }
+        }
+      }
+
+      .btn {
+        margin: 20px auto;
+        border-radius: 5px;
+        width: 224px;
+        text-align: center;
+        background: #9043c3;
+        border-radius: 5px;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 26px;
+      }
+
+      .left-title {
+        width: 125px;
+      }
+
+      .horizontal-line {
+        width: 90%;
+        height: 1px;
+        background-color: $box-background;
+      }
+    }
+  }
+  .gigsp {
+    @media (max-width:768px) {
+      padding-top: 30px;
+      padding-left: 0 !important;
+    }
+    button {
+      @media (max-width:768px) {
+        padding-left: 0;
+        padding-right: 30px;
+      }
+      h4 {
+        font-size: 18px;
+        margin: 0;
+      }
+    }
+  }
+}

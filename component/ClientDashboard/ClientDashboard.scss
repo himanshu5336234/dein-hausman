@@ -1,0 +1,54 @@
+.client-dashboard-wrapper {
+  .client-dashboard-top {
+    padding: 100px 0 50px 0;
+    .heading {
+      font-weight: 600;
+      font-size: 64px;
+      letter-spacing: -0.0018em;
+      color: #252525;
+      margin: 0 0 50px 0;
+      line-height: normal;
+      span {
+        color: $primary-color;
+        border-bottom: 3px solid $primary-color;
+      }
+      @media (max-width:767px) {
+        font-size: 45px;
+        line-height: normal;
+      }
+    }
+    .sub-heading {
+      font-weight: normal;
+      font-size: 18px;
+      letter-spacing: 0.28px;
+      color: #252525;
+      margin: 0;
+    }
+    h4 {
+      font-weight: 600;
+      font-size: 18px;
+      line-height: 26px;
+      display: flex;
+      align-items: center;
+      letter-spacing: 0.28px;
+      color: #2F2F2F;
+      margin: 0 0 8px 15px;
+    }
+    h6 {
+      font-weight: normal;
+      font-size: 18px;
+      line-height: 24px;
+      letter-spacing: 0.28px;
+      color: #252525;
+      margin: 0 0 0 15px;
+      width: 193px;
+    }
+  }
+  .flex-end {
+    justify-content: flex-end;
+    @media (max-width:1023px) {
+      justify-content: flex-start;
+      margin-top: 40px;
+    }
+  }
+}

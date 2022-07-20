@@ -1,0 +1,10 @@
+.btnprimary-fill {
+  font-size: 14px;
+}
+.head-other {
+  color: $primary-color !important;
+  text-decoration: underline;
+  @media (max-width:767px) {
+    margin-bottom: 15px !important;
+  }
+}

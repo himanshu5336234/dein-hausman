@@ -1,0 +1,310 @@
+body {
+  @media (max-width:980px) {
+    padding-top: 20px;
+  }
+}
+.delete-btn {
+  width: 20px;
+  padding: 4px;
+  border-radius: 4px;
+  height: 20px;
+  position: absolute;
+  top: -1px;
+  right: -1px;
+  cursor: pointer;
+  z-index: 99999;
+  background: #e20000 url("/assets/images/ic-delete.png") no-repeat;
+  background-size: 16px;
+  background-position: center center;
+  border: 0;
+}
+.mb30 {
+  margin-bottom: 30px;
+}
+.checkbox-margin-t {
+  margin-top: 30px;
+  @media (max-width:767px) {
+    margin-top: 10px;
+  }
+}
+.registration-tabs {
+  @media (max-width:980px) {
+    margin-top: 60px;
+  }
+  @media (max-width:767px) {
+    margin-top: 80px;
+  }
+  .react-tabs__tab-list {
+    list-style: none;
+    margin: 20px 0 45px 0;
+    padding: 0 0 15px 0;
+    display: flex;
+    border-bottom: 1px solid #C4C4C4;
+    li {
+      margin-right: 45px;
+      font-family: Neue Haas Grotesk Display Pro;
+      font-weight: 500;
+      font-size: 18px;
+      line-height: 24px;
+      letter-spacing: 0.28px;
+      color: #B0B0B0;
+      cursor: pointer;
+    }
+    .react-tabs__tab--selected {
+      color: #252525;
+    }
+  }
+  h5 {
+    font-family: Neue Haas Grotesk Display Pro;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: 0.28px;
+    color: hsl(0, 0%, 15%);
+    margin: 0 0 30px 138px;
+  }
+  .regis-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    max-width: 800px;
+    li {
+      display: flex;
+      align-items: center;
+      margin-bottom: 20px;
+      @media (max-width:767px) {
+        flex-wrap: wrap;
+        margin-bottom: 40px;
+      }
+      .imgbox {
+        margin-right: 40px;
+      }
+      .anchor-box {
+        @media (max-width:767px) {
+          margin-top: 10px;
+          margin-bottom: 10px;
+        }
+        a {
+          font-family: Neue Haas Grotesk Display Pro;
+          font-weight: 500;
+          font-size: 18px;
+          line-height: 26px;
+          text-decoration-line: underline;
+          color: #9043C3;
+        }
+      }
+      .btn-box {
+        margin-left: auto;
+        @media (max-width:767px) {
+          margin-left: 0;
+        }
+        button {
+          font-family: Neue Haas Grotesk Display Pro;
+          font-weight: 500;
+          font-size: 18px;
+          line-height: 26px;
+          text-decoration-line: underline;
+          color: #2F2F2F;
+          background: none;
+          margin: 0 0 0 15px;
+          @media (max-width:767px) {
+            margin: 0 15px 0 0;
+          }
+        }
+      }
+    }
+  }
+  .input-field {
+      border: 1px solid $grey-color;
+      border-radius: 5px;
+      padding: 12px;
+      color: $grey-color;
+      outline: none;
+      margin-bottom: 5px;
+      font-size: 18px;
+      line-height: 26px;
+      width: 100%;
+      appearance: none;
+      -webkit-appearance: none;
+      -moz-appearance: none;
+      -o-appearance: none;
+      -ms-appearance: none;
+      background: url("/assets/images/select-arrow.png") no-repeat;
+      background-size: 14px;
+      background-position: calc(100% - 15px) center;
+    }
+}
+.margmin15 {
+  margin: 0 -15px;
+}
+.aroundlabel {
+  position: absolute;
+  bottom: 15px;
+  left: 50%;
+  transform: translateX(-50%);
+  @media (max-width:767px) {
+    position: static;
+    transform: none;
+    width: 100%;
+    text-align: center;
+    float: left;
+    padding: 10px 0;
+  }
+}
+.ht42 {
+  height: 42px;
+}
+.textarea {
+  border: 1px solid $grey-color;
+  border-radius: 5px;
+  padding: 12px;
+  color: $grey-color;
+  outline: none;
+  margin-bottom: 10px;
+  font-size: 18px;
+  line-height: 26px;
+  height: 110px;
+  width: 100%;
+}
+.mapimg {
+  margin: 30px 0 60px 0;
+}
+.publish-section {
+  text-align: center;
+  margin: 80px 0;
+  h5 {
+    font-family: Neue Haas Grotesk Display Pro;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: normal !important;
+    letter-spacing: 0.28px;
+    color: #252525;
+    margin: 0 0 45px 0;
+  }
+  .linkinput {
+    width: 300px;
+    height: 58px;
+    padding: 0 30px;
+    margin: 0 auto 200px;
+    border: 1px solid #2F2F2F;
+    box-sizing: border-box;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    @media (max-width:767px) {
+      margin: 0 auto 50px;
+    }
+  }
+}
+
+.img-section {
+  .servicephotos {
+    width: 470px;
+    max-width: 100%;
+    .servicephotos-head {
+      display: flex;
+      justify-content: space-between;
+      h5 {
+        margin: 0;
+        text-align: left;
+        line-height: normal !important;
+      }
+      h6 {
+        margin: 0;
+        line-height: normal;
+      }
+    }
+    p {
+      font-family: Neue Haas Grotesk Display Pro;
+      font-weight: normal;
+      font-size: 18px;
+      line-height: 24px;
+      letter-spacing: 0.28px;
+      color: #B0B0B0;
+      margin: 0 0 55px 0;
+    }
+  }
+  .upload-content {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    img {
+      width: 83px !important;
+      height: 71px !important;
+    }
+    h4 {
+      font-weight: 600;
+      font-size: 16px;
+      line-height: 24px;
+      letter-spacing: 0.28px;
+      color: #B0B0B0;
+      margin: 0;
+    }
+    h5 {
+      font-weight: 600;
+      font-size: 16px;
+      line-height: 24px;
+      letter-spacing: 0.28px;
+      text-decoration-line: underline;
+      color: #9043C3;
+      margin: 0;
+    }
+  }
+  .servicephotos-listing {
+    list-style: none;
+    margin: 0 -0.5%;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    li {
+      width: 32.333%;
+      height: 207px;
+      border: 1px solid #C4C4C4;
+      box-sizing: border-box;
+      margin: 0 0.5%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      position: relative;
+      overflow: hidden;
+      @media (max-width:980px) {
+        height: 155px;
+      }
+      @media (max-width:767px) {
+        height: 220px;
+        width: 100%;
+        margin: 0 0 10px 0;
+        overflow: hidden;
+      }
+      div {
+        cursor: pointer;
+        &:focus {
+          outline: none;
+        }
+      }
+      img {
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+      }
+    }
+  }
+  .checkbox-wrapper {
+    label {
+      font-weight: normal !important;
+      font-size: 16px !important;
+      line-height: 18px !important;
+      letter-spacing: 0.28px;
+      color: #B0B0B0 !important;
+      display: unset;
+      white-space: pre-wrap !important;
+    }
+    input:checked + label:after {
+      top: 3px;
+    }
+  }
+  .primarybtn-fill {
+    width: 300px !important;
+  }
+}

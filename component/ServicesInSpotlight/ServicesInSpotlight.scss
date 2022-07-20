@@ -1,0 +1,30 @@
+.service-spotlight {
+  h3 {
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 42px !important;
+    color: #252525;
+  }
+  .heading-text {
+    padding: 0 170px;
+    @media (max-width:767px) {
+      padding: 0;
+      text-align: center !important;
+    }
+  }
+  .pr-0 {
+    @media (max-width:767px) {
+      padding-right: 15px !important;
+    }
+  }
+  .pl-0 {
+    @media (max-width:767px) {
+      padding-left: 15px !important;
+    }
+  }
+}
+.hideimg-mob {
+  @media (max-width:767px) {
+    display: none;
+  }
+}

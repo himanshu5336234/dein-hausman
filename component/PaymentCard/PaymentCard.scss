@@ -1,0 +1,64 @@
+@import "../../styles/globals.scss";
+.paymentimg {
+  img {
+    @media (max-width:767px) {
+      max-width: 90% !important;
+      height: auto !important;
+    }
+  }
+}
+.payment-card {
+  border: 1px solid $grey-color;
+  border-radius: 5px;
+  @media (max-width:767px) {
+    padding: 15px !important;
+  }
+  .label {
+    font-size: 24px;
+    @media (max-width:767px) {
+      font-size: 18px;
+      margin: 0;
+    }
+  }
+  .input {
+    color: $primary-color;
+    height: 20px;
+    width: 20px;
+    background-color: $primary-color;
+    margin-bottom: 0;
+  }
+  .bank {
+    border: 1px solid $grey-color;
+    border-radius: 10px;
+    padding: 12px;
+    width: 40%;
+    outline: none;
+    margin-bottom: 10px;
+    font-size: 18px;
+    line-height: 26px;
+    @media (max-width:767px) {
+      width: 85%;
+    }
+  }
+  .bank-upi {
+    border: 1px solid $grey-color;
+    border-radius: 10px;
+    padding: 12px;
+    width: 40%;
+    color: $grey-color;
+    outline: none;
+    margin-bottom: 10px;
+    font-size: 18px;
+    line-height: 26px;
+    @media (max-width:767px) {
+      width: 85%;
+    }
+  }
+  .StripeElement {
+    padding: 15px;
+    border: 1px solid #8d8d8d;
+    border-radius: 4px;
+    margin: 20px 0;
+  }
+  
+}

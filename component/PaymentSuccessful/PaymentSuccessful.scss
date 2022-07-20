@@ -1,0 +1,62 @@
+@import "../../styles/globals.scss";
+.payment-successful-wrapper {
+  width: 800px;
+  max-width: 90%;
+  text-align: center;
+  margin: 0 auto;
+  @media (max-width:767px) {
+    padding-top: 50px;
+  }
+  .successful-circle {
+    background: url("/assets/svg/successful-circle.svg");
+    width: 182px;
+    height: 182px;
+    background-repeat: no-repeat;
+    background-size: 182px;
+    padding: 45px;
+    display: inline-block;
+    @media (max-width:767px) {
+      width: 100px;
+      height: 100px;
+      background-size: 100px;
+      padding: 20px;
+    }
+  }
+  h4 {
+    font-family: Neue Haas Grotesk Display Pro;
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 68px;
+    letter-spacing: 0.28px;
+    color: #000000;
+    margin: 30px 0 35px 0;
+    @media (max-width:767px) {
+      font-size: 30px;
+    }
+  }
+  h6 {
+    font-family: Neue Haas Grotesk Display Pro;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: 0.28px;
+    color: #252525;
+    margin: 0 0 25px 0;
+  }
+  p {
+    font-family: Neue Haas Grotesk Display Pro;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.28px;
+    color: #252525;
+    margin: 0 0px 80px 0;
+  }
+  .btnprimary-fill {
+    margin: 0 10px;
+    @media (max-width:767px) {
+      margin: 0 0 10px 0;
+      width: 100%;
+    }
+  }
+}

@@ -1,0 +1,49 @@
+.our-services {
+  h1 {
+    font-weight: 600;
+    font-size: 64px;
+    line-height: normal;
+    letter-spacing: -0.0018em;
+    color: #252525;
+    margin: 60px 0 60px 0;
+    @media (max-width:767px) {
+      font-size: 40px;
+      margin: 50px 0 30px 0;
+    }
+  }
+  .service-list {
+    width: 816px;
+    max-width: 100%;
+    list-style: none;
+    margin: 0 auto;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    li {
+      width: 32%;
+      text-align: center;
+      border: 1px solid $gray-border;
+      padding: 32px 5px;
+      margin-bottom: 15px;
+      transition: transform .2s;
+      background: #fff;
+      @media (max-width:767px) {
+        width: 100%;
+      }
+      &:hover {
+        box-shadow: 0 0 15px #ccc;
+        transform: scale(1.05);
+      }
+      h4 {
+        font-family: $font-family-base;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 20px;
+        color: $black-color;
+        margin: 0;
+        padding: 0;
+      }
+    }
+  }
+}

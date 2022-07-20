@@ -1,0 +1,59 @@
+.FAQ {
+  h3 {
+    @media (max-width: 767px) {
+      font-size: 26px;
+    }
+  }
+}
+.accordion {
+  width: 50%;
+  margin: 16px auto;
+  padding: 10px 30px 4px 30px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 4px;
+  border: 1px solid $box-background;
+  cursor: pointer;
+  @media (max-width: 980px) {
+    width: 90%;
+  }
+  @media (max-width: 767px) {
+    width: calc(100% - 30px);
+    padding: 10px 15px 4px 15px;
+  }
+  .title {
+    .accordion-title {
+      margin: 5px 0;
+      font-weight: normal;
+      font-size: 18px;
+      line-height: 26px;
+      letter-spacing: 0.675px;
+      color: #1E2022;
+    }
+  }
+  .content {
+    color: $grey-color;
+    margin-top: 6px;
+    text-align: justify;
+    max-height: 0;
+    overflow: hidden;
+    transition: all 0.3s linear;
+  }
+  .show {
+    height: auto;
+    text-align: left;
+    max-height: 420px;
+    transition: all 0.3s linear;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 27px;
+    letter-spacing: 0.6px;
+    color: #77838F;
+  }
+  .plus-sign {
+    font-weight: 300;
+        margin: 0;
+  }
+}

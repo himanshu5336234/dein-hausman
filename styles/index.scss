@@ -1,0 +1,101 @@
+//global css - OVERRIDES BOOTSTRAP
+@import "./globals.scss";
+
+// BOOTSTRAP
+@import "node_modules/bootstrap/scss/bootstrap";
+
+//pages
+@import "./home.scss";
+@import "./inbox-page.scss";
+@import "./inbox-wide-page.scss";
+@import "./common.scss";
+
+//component
+@import "../component/HomeBanner/HomeBanner.scss";
+@import "../component/HowItWorks/HowItWorks.scss";
+@import "../component/HomeServices/HomeServices.scss";
+@import "../component/Navbar/Navbar.scss";
+@import "../component/SearchSection/SearchSection.scss";
+@import "../component/ServicesInSpotlight/ServicesInSpotlight.scss";
+@import "../component/Testimonial/Testimonial.scss";
+@import "../component/WhyChooseUs/WhyChooseUs.scss";
+@import "../component//AboutUs/AboutUs.scss";
+@import "../component/FAQ/FAQ.scss";
+@import "../component/Footer/Footer.scss";
+@import "../component/SearchBar/SearchBar.scss";
+@import "../component/OurServices/OurServices.scss";
+@import "../component/HandymenPagination/HandymenPagination.scss";
+@import "../component/PackingService/PackingService.scss";
+@import "../component/Reviews/Reviews.scss";
+@import "../component/ServiceCard/ServiceCard.scss";
+@import "../component/ProfileGigsWithReview/ProfileGigsWithReview.scss";
+@import "../component/AboutUsAndContact/AboutUsAndContact.scss";
+@import "../component/ProfileManagement/ProfileManagement.scss";
+@import "../component/PaymentCard/PaymentCard.scss";
+@import "../component/Inbox/Inbox.scss";
+@import "../component/Timeline/Timeline.scss";
+@import "../component/Chat/Chat.scss";
+@import "../component/ClientDashboard/ClientDashboard.scss";
+@import "../component/ClientMyOrders/ClientMyOrders.scss";
+@import "../component/Support/Support.scss";
+@import "../component/ReviewYourOrder/ReviewYourOrder.scss";
+@import "../component/OrderSummary/OrderSummary.scss";
+@import "../component/PaymentSuccessful/PaymentSuccessful.scss";
+@import "../component/TimelineOrder/TimelineOrder.scss";
+@import "../component/OtherOrders/OtherOrders.scss";
+@import "../component/HandymanRegistration/HandymanRegistration.scss";
+@import "../component/HandymanRegistrationComplete/HandymanRegistrationComplete.scss";
+@import "../component/QuotationDialog/QuotationDialog.scss";
+
+html {
+  -webkit-text-size-adjust: 100%;
+  font-size: 16px !important;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+  // font-family: "font-family-base", -apple-system, BlinkMacSystemFont, Segoe UI,
+  //   Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue,
+  //   sans-serif;
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+  position: relative;
+  background: $white-color;
+  color: $text-color;
+}
+
+.container-fluid {
+  padding-right: unset;
+  padding-left: unset;
+}
+
+h3 {
+  line-height: 42px !important;
+}
+
+h4,
+h5 {
+  line-height: 26px !important;
+}
+
+p {
+  line-height: 22px;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+hr {
+  width: 150px;
+  height: 0px;
+  margin-right: auto;
+  margin-left: auto;
+  border: 1px solid $text-color;
+}

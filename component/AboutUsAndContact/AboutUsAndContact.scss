@@ -1,0 +1,115 @@
+.about-us-and-contact {
+  padding-top: 60px;
+  p {
+    font-size: 18px;
+    color: $text-color;
+    line-height: 24px;
+    letter-spacing: 0.28px;
+  }
+
+  .form-area {
+    width: 70%;
+    @media (max-width:767px) {
+      width: 100%;
+      padding: 40px 20px !important;
+    }
+    h1 {
+      @media (max-width:767px) {
+        font-size: 40px;
+      }
+    }
+    .subtitle {
+      font-weight: 400;
+      @media (max-width:767px) {
+        font-size: 24px;
+        line-height: normal !important;
+      }
+    }
+
+    .form {
+      .input {
+        padding: 12px;
+        background-color: $box-background;
+        color: $grey-color;
+        border: none;
+        outline: none;
+        margin-bottom: 10px;
+        font-size: 18px;
+        line-height: 26px;
+      }
+      .small {
+        width: 60%;
+      }
+      .large {
+        width: 100%;
+      }
+      .mr-2,.ml-2 {
+        @media (max-width:768px) {
+          margin-left: 0 !important;
+          margin-right: 0 !important;
+        }
+      }
+    }
+
+    .button-area {
+      button {
+        border-radius: 10px;
+        margin: 10px auto;
+        margin-bottom: 20px;
+        padding: 12px 42px;
+        text-align: center;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 26px;
+        letter-spacing: -0.0018em;
+        color: $white-color;
+        @media (max-width:767px) {
+          width: 100%;
+        }
+      }
+    }
+
+    .or {
+      &::after {
+        @media (max-width:767px) {
+          width: 200px;
+        }
+      }
+      .horizontal-line {
+        width: 40%;
+        height: 1px;
+        background-color: $grey-color;
+      }
+    }
+
+    .icon-section {
+      .btn {
+        color: white;
+        border-radius: 50%;
+        height: 60px;
+        width: 60px;
+        font-size: 36px;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      .facebook {
+        background-color: #274d91;
+      }
+      .google {
+        background-color: #d43d27;
+      }
+      .linkedin {
+        background-color: #0072b4;
+      }
+    }
+  }
+  .map-area {
+    width: 30%;
+    overflow: hidden;
+    @media (max-width:767px) {
+      width: 100%;
+    }
+  }
+}

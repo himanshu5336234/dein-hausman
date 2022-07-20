@@ -1,0 +1,38 @@
+.support-section {
+  margin-bottom: 100px;
+  @media (max-width:768px) {
+    margin-top: 50px;
+  }
+  .form-area {
+    width: 100%;
+    padding-right: 50px;
+    @media (max-width:768px) {
+      padding-right: 0;
+    }
+    @media (max-width:767px) {
+      padding: 0 !important;
+    }
+    h1 {
+      font-size: 48px;
+      @media (max-width:767px) {
+        font-size: 40px;
+      }
+    }
+    .subtitle {
+      font-weight: normal;
+      font-size: 18px;
+      line-height: 24px !important;
+      display: flex;
+      align-items: center;
+      letter-spacing: 0.28px;
+      color: #2F2F2F;
+      margin: 0 0 50px 0;
+    }
+    textarea {
+      height: 120px;
+    }
+  }
+  .accordion {
+    width: 100%;
+  }
+}
